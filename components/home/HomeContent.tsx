@@ -9,6 +9,7 @@ import { MOT_ZONES } from '@/lib/constants';
 import ZonesMap from '@/components/ZonesMap';
 import HowItWorksTimeline from '@/components/HowItWorksTimeline';
 import FaqAccordion from '@/components/FaqAccordion';
+import FeatureCardReveal from '@/components/FeatureCardReveal';
 
 const FAQ_ITEMS = [
   {
@@ -53,6 +54,7 @@ export default function HomeContent() {
 
   return (
     <div id="home-page" className="page active">
+      <FeatureCardReveal />
       <section className="hero" id="home">
         <div className="hero-bg">
           <div className="hero-grid"></div>
@@ -76,14 +78,14 @@ export default function HomeContent() {
               Harcourt. Fast, safe, and always reliable.
             </p>
             <div className="hero-ctas-c">
-              <a
-                href="javascript:void(0)"
+              <button
+                type="button"
                 onClick={handleHeroSendPackage}
                 className="btn btn-primary btn-lg"
                 style={{ cursor: 'pointer' }}
               >
                 <i className="fa-solid fa-box"></i> Send a Package
-              </a>
+              </button>
               <Link href="/riders" className="btn btn-outline btn-lg">
                 <i className="fa-solid fa-motorcycle"></i> Become a Rider
               </Link>
@@ -339,14 +341,14 @@ export default function HomeContent() {
                 <li>Cashless payments + RYDO Wallet</li>
                 <li>Bulk orders for merchants & businesses</li>
               </ul>
-              <a
-                href="javascript:void(0)"
+              <button
+                type="button"
                 onClick={() => openPackage()}
                 className="btn btn-primary"
                 style={{ cursor: 'pointer' }}
               >
                 Start Sending →
-              </a>
+              </button>
             </div>
           </div>
           <div className="audience-panel audience-panel-rider">

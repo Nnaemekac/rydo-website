@@ -18,6 +18,7 @@ export default function Navbar() {
   const pathname = usePathname();
   const router = useRouter();
   const { user, signOut } = useAuth();
+  const [staffStatus, setStaffStatus] = useState({ mot: false, ops: false });
 
   function scrollToBottom() {
     if (pathname === '/') {
@@ -47,6 +48,17 @@ export default function Navbar() {
     document.body.style.overflow = menuOpen ? 'hidden' : '';
   }, [menuOpen]);
 
+  useEffect(() => {
+    if (!user) {
+      setStaffStatus({ mot: false, ops: false });
+      return;
+    }
+    fetch('/api/auth/staff-status')
+      .then((res) => res.json())
+      .then((data) => setStaffStatus({ mot: Boolean(data.mot), ops: Boolean(data.ops) }))
+      .catch(() => setStaffStatus({ mot: false, ops: false }));
+  }, [user]);
+
   const greetingName =
     (user?.user_metadata?.first_name as string | undefined) || user?.email?.split('@')[0];
 
@@ -69,7 +81,7 @@ export default function Navbar() {
             </Link>
           ))}
           <Link
-            href="/mot"
+            href={staffStatus.mot ? '/mot/dashboard' : '/mot'}
             className="nav-link nav-link-pill"
             style={{
               border: '1.5px solid rgba(255,255,255,0.18)',
@@ -79,10 +91,10 @@ export default function Navbar() {
               color: 'rgba(255,255,255,0.85)',
             }}
           >
-            <i className="fa-solid fa-building-columns"></i> MOT Portal
+            <i className="fa-solid fa-building-columns"></i> {staffStatus.mot ? 'MOT Dashboard' : 'MOT Portal'}
           </Link>
           <Link
-            href="/ops"
+            href={staffStatus.ops ? '/ops/dashboard' : '/ops'}
             className="nav-link nav-link-pill"
             style={{
               border: '1.5px solid rgba(255,255,255,0.18)',
@@ -92,7 +104,7 @@ export default function Navbar() {
               color: 'rgba(255,255,255,0.85)',
             }}
           >
-            <i className="fa-solid fa-toolbox"></i> Staff Login
+            <i className="fa-solid fa-toolbox"></i> {staffStatus.ops ? 'Staff Dashboard' : 'Staff Login'}
           </Link>
         </div>
         <div className="nav-actions">
