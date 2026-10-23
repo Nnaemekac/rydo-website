@@ -106,7 +106,7 @@ export default function HowItWorksTimeline() {
                   style={{ background: 'var(--black)', padding: 18, display: 'flex', flexDirection: 'column' }}
                 >
                   <div style={{ fontSize: 11, color: 'rgba(255,255,255,0.5)', marginBottom: 4 }}>Book a delivery</div>
-                  <div style={{ fontFamily: 'var(--font-poppins),sans-serif', fontWeight: 800, fontSize: 17, color: '#fff', marginBottom: 16 }}>Where to?</div>
+                  <div style={{ fontFamily: 'var(--font-heading),sans-serif', fontWeight: 800, fontSize: 17, color: '#fff', marginBottom: 16 }}>Where to?</div>
                   <div style={{ background: 'rgba(255,255,255,0.08)', borderRadius: 10, padding: '12px 14px', marginBottom: 8, display: 'flex', alignItems: 'center', gap: 10 }}>
                     <span style={{ width: 8, height: 8, borderRadius: '50%', background: 'var(--navy-l)', flexShrink: 0 }}></span>
                     <span style={{ fontSize: 12, color: '#fff' }}>Trans Amadi, Port Harcourt</span>
@@ -127,23 +127,23 @@ export default function HowItWorksTimeline() {
                   style={{ background: 'var(--black)', padding: 18, display: 'flex', flexDirection: 'column' }}
                 >
                   <div style={{ fontSize: 11, color: 'rgba(255,255,255,0.5)', marginBottom: 4 }}>Order #RY-4821</div>
-                  <div style={{ fontFamily: 'var(--font-poppins),sans-serif', fontWeight: 800, fontSize: 17, color: '#fff', marginBottom: 18 }}>Rider is on the way</div>
+                  <div style={{ fontFamily: 'var(--font-heading),sans-serif', fontWeight: 800, fontSize: 17, color: '#fff', marginBottom: 18 }}>Rider is on the way</div>
                   <div style={{ background: 'rgba(255,255,255,0.06)', borderRadius: 14, padding: 16, display: 'flex', alignItems: 'center', gap: 12, marginBottom: 16 }}>
                     <div style={{ width: 46, height: 46, borderRadius: '50%', background: 'var(--orange)', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: 18, color: '#fff', flexShrink: 0 }}>
                       <i className="fa-solid fa-user"></i>
                     </div>
                     <div style={{ flex: 1, minWidth: 0 }}>
-                      <div style={{ fontFamily: 'var(--font-poppins),sans-serif', fontWeight: 700, fontSize: 14, color: '#fff' }}>Chinedu Okafor</div>
+                      <div style={{ fontFamily: 'var(--font-heading),sans-serif', fontWeight: 700, fontSize: 14, color: '#fff' }}>Chinedu Okafor</div>
                       <div style={{ fontSize: 11, color: 'rgba(255,255,255,0.5)' }}>4.9 ★ · Honda CB125</div>
                     </div>
                   </div>
                   <div style={{ display: 'flex', gap: 10, marginBottom: 16 }}>
                     <div style={{ flex: 1, background: 'rgba(255,255,255,0.06)', borderRadius: 10, padding: 10, textAlign: 'center' }}>
-                      <div style={{ fontFamily: 'var(--font-poppins),sans-serif', fontWeight: 800, fontSize: 18, color: 'var(--orange)' }}>2 min</div>
+                      <div style={{ fontFamily: 'var(--font-heading),sans-serif', fontWeight: 800, fontSize: 18, color: 'var(--orange)' }}>2 min</div>
                       <div style={{ fontSize: 10, color: 'rgba(255,255,255,0.45)' }}>Arriving</div>
                     </div>
                     <div style={{ flex: 1, background: 'rgba(255,255,255,0.06)', borderRadius: 10, padding: 10, textAlign: 'center' }}>
-                      <div style={{ fontFamily: 'var(--font-poppins),sans-serif', fontWeight: 800, fontSize: 18, color: '#fff' }}>₦1,250</div>
+                      <div style={{ fontFamily: 'var(--font-heading),sans-serif', fontWeight: 800, fontSize: 18, color: '#fff' }}>₦1,250</div>
                       <div style={{ fontSize: 10, color: 'rgba(255,255,255,0.45)' }}>Fare</div>
                     </div>
                   </div>
@@ -202,7 +202,7 @@ export default function HowItWorksTimeline() {
                   </div>
                   <div style={{ position: 'absolute', top: 14, left: 14, background: '#00E896', color: '#0D1117', fontSize: 10, fontWeight: 800, padding: '4px 10px', borderRadius: 100 }}>● LIVE</div>
                   <div style={{ position: 'absolute', bottom: 0, left: 0, right: 0, background: '#fff', borderRadius: '18px 18px 0 0', padding: 18, boxShadow: '0 -8px 24px rgba(0,0,0,0.25)' }}>
-                    <div style={{ fontFamily: 'var(--font-poppins),sans-serif', fontWeight: 700, fontSize: 13, color: 'var(--text)', marginBottom: 10 }}>Order #RY-4821</div>
+                    <div style={{ fontFamily: 'var(--font-heading),sans-serif', fontWeight: 700, fontSize: 13, color: 'var(--text)', marginBottom: 10 }}>Order #RY-4821</div>
                     <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: 11, color: 'var(--gray-500)', marginBottom: 6 }}>
                       <span>Rider</span>
                       <span style={{ color: 'var(--text)', fontWeight: 600 }}>Chinedu · 4.9 ★</span>
@@ -221,7 +221,7 @@ export default function HowItWorksTimeline() {
                   <div style={{ width: 72, height: 72, borderRadius: '50%', background: 'rgba(0,168,90,0.15)', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: 30, color: '#00A85A', marginBottom: 18 }}>
                     <i className="fa-solid fa-circle-check"></i>
                   </div>
-                  <div style={{ fontFamily: 'var(--font-poppins),sans-serif', fontWeight: 800, fontSize: 19, color: '#fff', marginBottom: 8 }}>Delivered!</div>
+                  <div style={{ fontFamily: 'var(--font-heading),sans-serif', fontWeight: 800, fontSize: 19, color: '#fff', marginBottom: 8 }}>Delivered!</div>
                   <div style={{ fontSize: 13, color: 'rgba(255,255,255,0.55)', marginBottom: 22 }}>
                     Code <b style={{ color: '#fff' }}>8847</b> confirmed by recipient
                   </div>

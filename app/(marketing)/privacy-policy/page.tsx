@@ -77,7 +77,7 @@ export default function PrivacyPolicyPage() {
                 <b>Platform</b> RYDO APP
               </div>
               <div>
-                <b>Website</b> rydo.com.ng
+                <b>Website</b> rydo.tech
               </div>
               <div>
                 <b>Privacy Contact</b> <a href="mailto:rydosupport@gmail.com">rydosupport@gmail.com</a>
@@ -495,7 +495,7 @@ export default function PrivacyPolicyPage() {
                 <b>Phone</b> 08081259375
               </div>
               <div>
-                <b>Website</b> rydo.com.ng
+                <b>Website</b> rydo.tech
               </div>
             </div>
           </div>

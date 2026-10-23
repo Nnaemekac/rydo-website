@@ -142,7 +142,7 @@ export default function ContactForm() {
           </div>
           <div
             style={{
-              fontFamily: "'Poppins',sans-serif",
+              fontFamily: 'var(--font-heading),sans-serif',
               fontWeight: 700,
               fontSize: 17,
               marginBottom: 6,

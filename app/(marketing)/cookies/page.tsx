@@ -146,7 +146,7 @@ export default function CookiePolicyPage() {
                 <b>Phone</b> 08081259375
               </div>
               <div>
-                <b>Website</b> rydo.com.ng
+                <b>Website</b> rydo.tech
               </div>
             </div>
           </div>

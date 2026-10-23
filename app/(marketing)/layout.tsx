@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { Poppins, Inter } from 'next/font/google';
+import { Sora, Inter } from 'next/font/google';
 import '../globals.css';
 import AuthProvider from '@/components/AuthProvider';
 import ModalProvider from '@/components/modals/ModalProvider';
@@ -10,17 +10,17 @@ import Footer from '@/components/Footer';
 import PackageModal from '@/components/modals/PackageModal';
 import RiderModal from '@/components/modals/RiderModal';
 
-const poppins = Poppins({
+const sora = Sora({
   subsets: ['latin'],
-  weight: ['400', '500', '600', '700', '800', '900'],
-  variable: '--font-poppins',
+  weight: ['400', '600', '700', '800'],
+  variable: '--font-heading',
   display: 'swap',
 });
 
 const inter = Inter({
   subsets: ['latin'],
-  weight: ['400', '500', '600'],
-  variable: '--font-inter',
+  weight: ['400', '500', '600', '700'],
+  variable: '--font-body',
   display: 'swap',
 });
 
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
 
 export default function MarketingLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={`${poppins.variable} ${inter.variable}`}>
+    <html lang="en" className={`${sora.variable} ${inter.variable}`}>
       <body>
         <PostHogProvider>
           <AuthProvider>

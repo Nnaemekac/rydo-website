@@ -89,7 +89,7 @@ export default function AboutPage() {
                 >
                   <i className="fa-solid fa-mobile-screen-button"></i>
                 </div>
-                <div style={{ fontFamily: "'Poppins',sans-serif", fontWeight: 900, fontSize: 36, lineHeight: 1, color: 'var(--text)' }}>
+                <div style={{ fontFamily: 'var(--font-heading),sans-serif', fontWeight: 900, fontSize: 36, lineHeight: 1, color: 'var(--text)' }}>
                   13
                 </div>
                 <div style={{ fontSize: 13, color: 'var(--gray-500)', marginTop: 6 }}>Active delivery zones</div>
@@ -111,7 +111,7 @@ export default function AboutPage() {
                 >
                   <i className="fa-solid fa-bolt"></i>
                 </div>
-                <div style={{ fontFamily: "'Poppins',sans-serif", fontWeight: 900, fontSize: 36, lineHeight: 1, color: 'var(--text)' }}>
+                <div style={{ fontFamily: 'var(--font-heading),sans-serif', fontWeight: 900, fontSize: 36, lineHeight: 1, color: 'var(--text)' }}>
                   24h
                 </div>
                 <div style={{ fontSize: 13, color: 'var(--gray-500)', marginTop: 6 }}>Rider onboarding time</div>
@@ -133,7 +133,7 @@ export default function AboutPage() {
                 >
                   <i className="fa-solid fa-shield-halved"></i>
                 </div>
-                <div style={{ fontFamily: "'Poppins',sans-serif", fontWeight: 900, fontSize: 36, lineHeight: 1, color: 'var(--text)' }}>
+                <div style={{ fontFamily: 'var(--font-heading),sans-serif', fontWeight: 900, fontSize: 36, lineHeight: 1, color: 'var(--text)' }}>
                   100%
                 </div>
                 <div style={{ fontSize: 13, color: 'var(--gray-500)', marginTop: 6 }}>NDPA 2023 compliant</div>
@@ -155,7 +155,7 @@ export default function AboutPage() {
                 >
                   <i className="fa-solid fa-headset"></i>
                 </div>
-                <div style={{ fontFamily: "'Poppins',sans-serif", fontWeight: 900, fontSize: 36, lineHeight: 1, color: '#fff' }}>
+                <div style={{ fontFamily: 'var(--font-heading),sans-serif', fontWeight: 900, fontSize: 36, lineHeight: 1, color: '#fff' }}>
                   24/7
                 </div>
                 <div style={{ fontSize: 13, color: 'rgba(255,255,255,0.55)', marginTop: 6 }}>
@@ -214,7 +214,7 @@ export default function AboutPage() {
                     padding: 24,
                   }}
                 >
-                  <div style={{ fontFamily: 'Poppins,sans-serif', fontWeight: 900, fontSize: 19, color: '#fff', marginBottom: 6 }}>
+                  <div style={{ fontFamily: 'var(--font-heading),sans-serif', fontWeight: 900, fontSize: 19, color: '#fff', marginBottom: 6 }}>
                     Ikiriko Prosper Pepple
                   </div>
                   <div style={{ display: 'flex', flexWrap: 'wrap', gap: 7 }}>
@@ -296,7 +296,7 @@ export default function AboutPage() {
                     padding: 24,
                   }}
                 >
-                  <div style={{ fontFamily: 'Poppins,sans-serif', fontWeight: 900, fontSize: 19, color: '#fff', marginBottom: 6 }}>
+                  <div style={{ fontFamily: 'var(--font-heading),sans-serif', fontWeight: 900, fontSize: 19, color: '#fff', marginBottom: 6 }}>
                     Dr. Moses Owede Vincent
                   </div>
                   <div style={{ display: 'flex', flexWrap: 'wrap', gap: 7 }}>
@@ -377,7 +377,7 @@ export default function AboutPage() {
                     padding: 24,
                   }}
                 >
-                  <div style={{ fontFamily: 'Poppins,sans-serif', fontWeight: 900, fontSize: 19, color: '#fff', marginBottom: 6 }}>
+                  <div style={{ fontFamily: 'var(--font-heading),sans-serif', fontWeight: 900, fontSize: 19, color: '#fff', marginBottom: 6 }}>
                     Nnaemeka Chimezie
                   </div>
                   <div style={{ display: 'flex', flexWrap: 'wrap', gap: 7 }}>
@@ -463,25 +463,25 @@ export default function AboutPage() {
             }}
           >
             <div>
-              <div style={{ fontFamily: 'Poppins,sans-serif', fontWeight: 900, fontSize: 34, color: 'var(--orange)' }}>7+</div>
+              <div style={{ fontFamily: 'var(--font-heading),sans-serif', fontWeight: 900, fontSize: 34, color: 'var(--orange)' }}>7+</div>
               <div style={{ fontSize: 12, color: 'rgba(255,255,255,0.45)', marginTop: 5, lineHeight: 1.5 }}>
                 Years cybersecurity &amp; logistics leadership
               </div>
             </div>
             <div>
-              <div style={{ fontFamily: 'Poppins,sans-serif', fontWeight: 900, fontSize: 34, color: '#4DABFF' }}>23</div>
+              <div style={{ fontFamily: 'var(--font-heading),sans-serif', fontWeight: 900, fontSize: 34, color: '#4DABFF' }}>23</div>
               <div style={{ fontSize: 12, color: 'rgba(255,255,255,0.45)', marginTop: 5, lineHeight: 1.5 }}>
                 Peer-reviewed economic publications
               </div>
             </div>
             <div>
-              <div style={{ fontFamily: 'Poppins,sans-serif', fontWeight: 900, fontSize: 34, color: '#00E896' }}>PhD</div>
+              <div style={{ fontFamily: 'var(--font-heading),sans-serif', fontWeight: 900, fontSize: 34, color: '#00E896' }}>PhD</div>
               <div style={{ fontSize: 12, color: 'rgba(255,255,255,0.45)', marginTop: 5, lineHeight: 1.5 }}>
                 International Economics &amp; Development Finance
               </div>
             </div>
             <div>
-              <div style={{ fontFamily: 'Poppins,sans-serif', fontWeight: 900, fontSize: 34, color: '#FFB300' }}>CEH</div>
+              <div style={{ fontFamily: 'var(--font-heading),sans-serif', fontWeight: 900, fontSize: 34, color: '#FFB300' }}>CEH</div>
               <div style={{ fontSize: 12, color: 'rgba(255,255,255,0.45)', marginTop: 5, lineHeight: 1.5 }}>
                 Certified Ethical Hacker
               </div>
@@ -538,7 +538,7 @@ export default function AboutPage() {
               <div className="value-title">Data Privacy</div>
               <div className="value-desc">
                 NDPA 2023 compliant. Your data is encrypted in transit and at rest. We never sell
-                personal data to third parties. Full policy at rydo.com.ng.
+                personal data to third parties. Full policy at rydo.tech.
               </div>
             </div>
             <div className="value-card">

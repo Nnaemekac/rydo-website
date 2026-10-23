@@ -20,7 +20,7 @@ export default function ServicesPage() {
               </div>
               <h1
                 style={{
-                  fontFamily: "'Poppins',sans-serif",
+                  fontFamily: 'var(--font-heading),sans-serif',
                   fontWeight: 900,
                   fontSize: 'clamp(40px,5vw,72px)',
                   color: '#fff',

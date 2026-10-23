@@ -436,7 +436,7 @@ export default function HomeContent() {
                 <div>
                   <div
                     style={{
-                      fontFamily: 'var(--font-poppins),sans-serif',
+                      fontFamily: 'var(--font-heading),sans-serif',
                       fontWeight: 800,
                       fontSize: 20,
                       color: '#fff',

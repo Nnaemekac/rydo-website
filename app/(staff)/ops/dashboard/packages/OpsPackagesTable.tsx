@@ -10,7 +10,7 @@ const selectStyle: CSSProperties = {
   padding: '4px 8px',
   borderRadius: 6,
   border: '1px solid #DDE6F5',
-  fontFamily: 'var(--font-inter),sans-serif',
+  fontFamily: 'var(--font-body),sans-serif',
 };
 
 function formatDate(value: string) {

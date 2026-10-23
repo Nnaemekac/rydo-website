@@ -26,7 +26,7 @@ export default function RidersPage() {
               </div>
               <h1
                 style={{
-                  fontFamily: "'Poppins',sans-serif",
+                  fontFamily: 'var(--font-heading),sans-serif',
                   fontWeight: 900,
                   fontSize: 'clamp(40px,5vw,68px)',
                   color: '#fff',
@@ -170,7 +170,7 @@ export default function RidersPage() {
               <div style={{ fontSize: 40, marginBottom: 14 }}>
                 <i className="fa-solid fa-motorcycle"></i>
               </div>
-              <div style={{ fontFamily: "'Poppins',sans-serif", fontWeight: 700, fontSize: 15, marginBottom: 8 }}>
+              <div style={{ fontFamily: 'var(--font-heading),sans-serif', fontWeight: 700, fontSize: 15, marginBottom: 8 }}>
                 A Motorcycle
               </div>
               <div style={{ fontSize: 13, color: 'var(--gray-500)' }}>
@@ -182,7 +182,7 @@ export default function RidersPage() {
               <div style={{ fontSize: 40, marginBottom: 14 }}>
                 <i className="fa-solid fa-id-card"></i>
               </div>
-              <div style={{ fontFamily: "'Poppins',sans-serif", fontWeight: 700, fontSize: 15, marginBottom: 8 }}>
+              <div style={{ fontFamily: 'var(--font-heading),sans-serif', fontWeight: 700, fontSize: 15, marginBottom: 8 }}>
                 Valid Driver&apos;s Licence
               </div>
               <div style={{ fontSize: 13, color: 'var(--gray-500)' }}>
@@ -194,7 +194,7 @@ export default function RidersPage() {
               <div style={{ fontSize: 40, marginBottom: 14 }}>
                 <i className="fa-solid fa-mobile-screen-button"></i>
               </div>
-              <div style={{ fontFamily: "'Poppins',sans-serif", fontWeight: 700, fontSize: 15, marginBottom: 8 }}>
+              <div style={{ fontFamily: 'var(--font-heading),sans-serif', fontWeight: 700, fontSize: 15, marginBottom: 8 }}>
                 Android Smartphone
               </div>
               <div style={{ fontSize: 13, color: 'var(--gray-500)' }}>
@@ -206,7 +206,7 @@ export default function RidersPage() {
               <div style={{ fontSize: 40, marginBottom: 14 }}>
                 <i className="fa-solid fa-sim-card"></i>
               </div>
-              <div style={{ fontFamily: "'Poppins',sans-serif", fontWeight: 700, fontSize: 15, marginBottom: 8 }}>
+              <div style={{ fontFamily: 'var(--font-heading),sans-serif', fontWeight: 700, fontSize: 15, marginBottom: 8 }}>
                 Nigerian Phone Number
               </div>
               <div style={{ fontSize: 13, color: 'var(--gray-500)' }}>

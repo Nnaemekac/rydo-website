@@ -719,7 +719,7 @@ export default function RefundPolicyPage() {
                 <b>Data / Privacy</b> <a href="mailto:rydosupport@gmail.com">rydosupport@gmail.com</a>
               </div>
               <div>
-                <b>Website</b> rydo.com.ng
+                <b>Website</b> rydo.tech
               </div>
               <div>
                 <b>Support Hours</b> 8:00 AM – 8:00 PM WAT · Monday – Saturday

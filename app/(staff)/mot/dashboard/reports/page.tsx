@@ -32,7 +32,7 @@ export default async function MotReportsPage() {
           <div style={{ fontSize: 28, marginBottom: 12, color: '#1A2540' }}>
             <i className="fa-solid fa-motorcycle"></i>
           </div>
-          <div style={{ fontFamily: 'var(--font-poppins),sans-serif', fontWeight: 700, fontSize: 14, color: '#0D1117', marginBottom: 8 }}>
+          <div style={{ fontFamily: 'var(--font-heading),sans-serif', fontWeight: 700, fontSize: 14, color: '#0D1117', marginBottom: 8 }}>
             All Rider Applications
           </div>
           <div style={{ fontSize: 12, color: '#8494B5', lineHeight: 1.6, marginBottom: 16 }}>
@@ -63,7 +63,7 @@ export default async function MotReportsPage() {
           <div style={{ fontSize: 28, marginBottom: 12, color: '#1A2540' }}>
             <i className="fa-solid fa-box"></i>
           </div>
-          <div style={{ fontFamily: 'var(--font-poppins),sans-serif', fontWeight: 700, fontSize: 14, color: '#0D1117', marginBottom: 8 }}>
+          <div style={{ fontFamily: 'var(--font-heading),sans-serif', fontWeight: 700, fontSize: 14, color: '#0D1117', marginBottom: 8 }}>
             All Package Requests
           </div>
           <div style={{ fontSize: 12, color: '#8494B5', lineHeight: 1.6, marginBottom: 16 }}>

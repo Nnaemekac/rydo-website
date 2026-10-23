@@ -92,8 +92,8 @@ export default function TrackingClient({ orderId }: { orderId: string }) {
     <div style={pageStyle}>
       <div style={{ width: '100%', maxWidth: 480 }}>
         <div style={{ display: 'flex', alignItems: 'baseline', gap: 10, marginBottom: 4 }}>
-          <span style={{ fontFamily: 'Poppins, sans-serif', fontWeight: 900, fontSize: 24, color: '#FF5C00' }}>RY</span>
-          <span style={{ fontFamily: 'Poppins, sans-serif', fontWeight: 900, fontSize: 24, color: '#F0F6FF' }}>DO</span>
+          <span style={{ fontFamily: 'var(--font-heading), sans-serif', fontWeight: 900, fontSize: 24, color: '#FF5C00' }}>RY</span>
+          <span style={{ fontFamily: 'var(--font-heading), sans-serif', fontWeight: 900, fontSize: 24, color: '#F0F6FF' }}>DO</span>
         </div>
         <p style={{ color: 'rgba(240,246,255,0.5)', fontSize: 14, marginBottom: 24 }}>#{data.order_number}</p>
 

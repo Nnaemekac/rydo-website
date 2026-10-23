@@ -44,7 +44,7 @@ export default function MotRidersTable({ riders }: { riders: RiderApplication[] 
               border: '1.5px solid #DDE6F5',
               borderRadius: 10,
               fontSize: 13,
-              fontFamily: 'var(--font-inter),sans-serif',
+              fontFamily: 'var(--font-body),sans-serif',
               outline: 'none',
               width: 220,
             }}

@@ -16,7 +16,7 @@ export default function MotIncidentsPage() {
         <div style={{ fontSize: 36, color: '#DDE6F5', marginBottom: 14 }}>
           <i className="fa-solid fa-clipboard-check"></i>
         </div>
-        <div style={{ fontFamily: 'var(--font-poppins),sans-serif', fontWeight: 700, fontSize: 15, color: '#0D1117', marginBottom: 6 }}>
+        <div style={{ fontFamily: 'var(--font-heading),sans-serif', fontWeight: 700, fontSize: 15, color: '#0D1117', marginBottom: 6 }}>
           No incident reporting feature yet
         </div>
         <div style={{ fontSize: 13, color: '#8494B5', maxWidth: 380, margin: '0 auto' }}>
