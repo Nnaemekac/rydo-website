@@ -72,6 +72,7 @@ export default function Footer() {
               <Link className="footer-link" href="/terms">Terms of Service</Link>
               <Link className="footer-link" href="/cookies">Cookie Policy</Link>
               <Link className="footer-link" href="/refund-policy">Refund Policy</Link>
+              <Link className="footer-link" href="/package-policy">Package Policy</Link>
               <Link className="footer-link" href="/privacy-policy#pp-12">Data Request</Link>
             </div>
           </div>
