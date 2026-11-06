@@ -31,7 +31,7 @@ function PostHogPageview() {
     if (!initialized) return;
     const url = searchParams.toString() ? `${pathname}?${searchParams.toString()}` : pathname;
     posthog.capture('$pageview', { $current_url: url });
-    if (pathname === '/') {
+    if (pathname === '/app') {
       posthog.capture(ANALYTICS_EVENTS.HOMEPAGE_VIEWED);
     }
   }, [pathname, searchParams]);

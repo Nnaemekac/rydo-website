@@ -4,6 +4,7 @@ const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://rydo.tech';
 
 const routes = [
   '',
+  '/app',
   '/about',
   '/services',
   '/riders',

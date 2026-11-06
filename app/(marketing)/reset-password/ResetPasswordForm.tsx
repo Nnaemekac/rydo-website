@@ -111,7 +111,7 @@ export default function ResetPasswordForm() {
               <p style={{ fontSize: 13, color: 'rgba(255,255,255,0.55)', marginBottom: 20 }}>
                 You&apos;re all set — your new password is active.
               </p>
-              <Link href="/" className="auth-submit-btn" style={{ display: 'block', textDecoration: 'none' }}>
+              <Link href="/app" className="auth-submit-btn" style={{ display: 'block', textDecoration: 'none' }}>
                 Continue
               </Link>
             </div>

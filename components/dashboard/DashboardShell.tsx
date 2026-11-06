@@ -78,7 +78,7 @@ export default function DashboardShell({
       <div className={`dash-sidebar-backdrop${mobileOpen ? ' open' : ''}`} onClick={() => setMobileOpen(false)} />
 
       <aside className={`dash-sidebar${mobileOpen ? ' open' : ''}`}>
-        <Link href="/" className="dash-sidebar-brand" style={{ textDecoration: 'none' }}>
+        <Link href="/app" className="dash-sidebar-brand" style={{ textDecoration: 'none' }}>
           <div className="dash-sidebar-brand-icon">
             <Image src="/images/logo.jpg" alt="RYDO" width={32} height={32} />
           </div>

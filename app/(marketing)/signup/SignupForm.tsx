@@ -173,7 +173,7 @@ export default function SignupForm() {
                     View My Orders
                   </Link>
                 )}
-                <Link href="/" className="auth-link" style={{ fontSize: 13 }}>
+                <Link href="/app" className="auth-link" style={{ fontSize: 13 }}>
                   Continue to homepage
                 </Link>
               </div>

@@ -41,7 +41,7 @@ export default async function MotPage() {
       >
         <div>
           <Link
-            href="/"
+            href="/app"
             style={{ display: 'flex', width: 'fit-content', alignItems: 'center', gap: 6, fontSize: 13, color: 'rgba(255,255,255,0.5)', marginBottom: 18 }}
           >
             <i className="fa-solid fa-arrow-left"></i> Back to RYDO.tech

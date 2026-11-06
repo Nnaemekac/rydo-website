@@ -7,7 +7,7 @@ import { usePathname, useRouter } from 'next/navigation';
 import { useAuth } from '@/components/AuthProvider';
 
 const NAV_LINKS = [
-  { href: '/', label: 'Home' },
+  { href: '/app', label: 'Home' },
   { href: '/about', label: 'About' },
   { href: '/services', label: 'Services' },
   { href: '/riders', label: 'Ride with RYDO' },
@@ -21,10 +21,10 @@ export default function Navbar() {
   const [staffStatus, setStaffStatus] = useState({ mot: false, ops: false });
 
   function scrollToBottom() {
-    if (pathname === '/') {
+    if (pathname === '/app') {
       window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
     } else {
-      router.push('/');
+      router.push('/app');
       setTimeout(() => window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' }), 300);
     }
   }
@@ -65,7 +65,7 @@ export default function Navbar() {
   return (
     <>
       <nav className={`navbar${scrolled ? ' scrolled' : ''}${menuOpen ? ' menu-open' : ''}`} id="navbar">
-        <Link href="/" className="navbar-logo">
+        <Link href="/app" className="navbar-logo">
           <div className="logo-icon">
             <Image src="/images/logo.jpg" alt="RYDO" width={48} height={48} />
           </div>

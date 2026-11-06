@@ -58,10 +58,11 @@ export default function Footer() {
           <div>
             <div className="footer-col-title">Company</div>
             <div className="footer-links">
+              <Link className="footer-link" href="/">RYDO Digital Solutions</Link>
               <Link className="footer-link" href="/about">About RYDO</Link>
               <Link className="footer-link" href="/riders">Ride with RYDO</Link>
               <Link className="footer-link" href="/contact">Contact</Link>
-              <Link className="footer-link" href="/">Coverage Zones</Link>
+              <Link className="footer-link" href="/app">Coverage Zones</Link>
               <a className="footer-link" href="mailto:rydosupport@gmail.com">Careers</a>
             </div>
           </div>
